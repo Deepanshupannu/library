@@ -26,6 +26,7 @@ function Book(title, author, pages, read) {
         <p>${book.pages} pages</p>
         <p class="read-status">${book.read?"Read":"Not Read Yet"}</p>
         </div>
+        <button>Remove</button>
         </div>
         
         
